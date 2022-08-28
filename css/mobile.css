@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+
+    p{
+        text-align: justify;
+    }
+
+    #navmenu
+    {
+        background: black;
+    }
+    #navmenu ul
+    {
+        padding: 25px;
+        margin-right: 20px;
+    }
+
+    #bannaer h1
+    {
+        font-size: 10px!important;
+    }
+}

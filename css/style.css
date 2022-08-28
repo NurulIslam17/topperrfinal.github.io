@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,800;1,700&display=swap');
+
+/*
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+*/
+.ff-Montserrat
+{
+    font-family: 'Montserrat', sans-serif;
+}
+.bg-white
+{
+    background-color: #fff;
+}
+.fsty-italic
+{
+    font-style: italic;
+    font-weight: normal!important;
+    color: #333;
+}
+.color-red
+{
+    color: #ec2d4f!important;
+}
+
+.nav-menu-a
+{
+    color: #777;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.navSection
+{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(51,15,86,1) 0%, rgba(198,59,235,1) 0%, rgba(182,72,237,1) 0%, rgba(177,53,214,1) 0%, rgba(63,39,124,1) 18%);
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.logo
+{
+    font-size: 42px!important;
+    font-weight: bolder!important;
+    font-family: 'Montserrat', sans-serif;
+    color: #ec2d4f;
+}
+
+span i{
+    color: #ec2d4f;
+}
+
+/*.nav1right li  a  {*/
+/*    border-right:1px solid #fff;*/
+/*}*/
+/*  BAneer Section */
+
+.bannaer
+{
+    background-image: url("../image/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    position: relative;
+    height: 70vh;
+}
+.banner-heading {
+    text-align: right;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+
+.banner-heading h1{
+    font-size: 64px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.banner-heading h3{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.getStarted
+{
+    background: #00286a;
+    border: 2px solid #00286a!important;
+    margin: 25px;
+    padding: 10px 35px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+.getStarted:hover
+{
+    background: transparent;
+    color: #00286a;
+    border: 2px solid black!important;
+    transition: 1s;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+/*  Welcome */
+
+.welcome h2
+{
+    font-size: 32px;
+    font-weight: 700;
+}
+.welcomeHead
+{
+    position: relative;
+}
+
+.welcome h2:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 62px;
+    height: 3px;
+    bottom: 0;
+    top: 45px;
+    left: 47%;
+    border-top: #ec2d4f dashed 3px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*sercice  */
+.service-card i{
+   color: #870F87;
+}
+
+
+
+.clients .clientsLogo img
+{
+    height: 50%;
+    width: 100%;
+}
+
+/*Portfolio*/
+.portfolio
+{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(70,16,85,1) 0%, rgba(198,59,235,1) 0%, rgba(182,72,237,1) 0%, rgba(208,58,252,1) 7%, rgba(63,39,124,1) 20%);
+}
+.portfolio .portfolioCard
+{
+    /*background-image: url("../image/portfolio/1.jpg");*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    position: relative;
+}
+.portfolio .portfolioCard:hover img
+{
+    transition: 5s;
+    transform: scale(1.2);
+}
+.portfolio .portfolioCard h3 {
+    margin: 0 55px;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    background: #333333;
+    opacity: .7;
+    padding: 13px;
+    border: 2px solid #ffffff;
+    font-size: 26px;
+}
+
+
+.testimonials .testimonial-card> p
+{
+    border-radius: 15px 15px 0 15px;
+    background: #e2e2f3;
+}
+.get-service
+{
+    background: #001d42;
+}
+.get-service a {
+    background: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px 30px;
+}
+.get-service a:hover
+{
+    background: #ec2d4f;
+    color: #fff;
+    border: 3px solid #ec2d4f;
+}
+
+.team .teamImg
+{
+    border-bottom: 5px solid #ec2d4f;
+    max-width: 100%;
+}
+.team .imgInfo p{
+    font-style: italic;
+}
+.team .teamLink a {
+    border: 2px solid #939292;
+    padding: 3px 12px;
+}
+.team .teamLink a i{
+    color: #939292;
+}
+
+.contact .sendBtn
+{
+    position: relative;
+    right: -85%;
+    background: #ec2d4f;
+}
+
+.contact .sendBtn:hover
+{
+    background: #2a1c6f;
+}
+
+.footer
+{
+    background: #2a1c6f;
+}
